@@ -2,12 +2,13 @@
 ===============================================================================
 Create Database and Schemas
 ===============================================================================
-Purpose       : Creates the 'DataWarehouse' database and initializes the
-                medallion architecture schemas ('bronze', 'silver', and 'gold').
+Purpose: 
+      Creates the 'DataWarehouse' database and initializes the
+      medallion architecture schemas ('bronze', 'silver', and 'gold').
 
-Notes         : - Run while connected to the 'master' database.
-                - Ensure 'DataWarehouse' does not already exist before running
-                  CREATE DATABASE without a conditional check.
+Warning: 
+      - Run while connected to the 'master' database.
+      - Ensure 'DataWarehouse' does not already exist before running
 ===============================================================================
 */
 
